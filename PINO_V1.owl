@@ -1,0 +1,2223 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#"
+     xml:base="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Acupuncture_and_acupressure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Acupuncture_and_acupressure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_pain_relief_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Adoption_or_abortion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Adoption_or_abortion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Other_pregnancy_concerns"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Alcohol_consumption_during_pregnancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Alcohol_consumption_during_pregnancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Nutrition_physical_exercise_or_lifestyle_in_pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Alternative_analgesic_modalities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Alternative_analgesic_modalities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_analgesia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Amnioscentesis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Amnioscentesis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_diagnostic_and_screening_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Amniotomy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Amniotomy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Induction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Anatomy_scan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Anatomy_scan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_diagnostic_and_screening_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Animations_or_illustrations_of_CHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Animations_or_illustrations_of_CHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_abnormality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Animations_or_illustrations_of_treatments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Animations_or_illustrations_of_treatments">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Care_and_treatment_of_children_with_CHD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Applying_for_babys_social_security -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Applying_for_babys_social_security">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postpartum_planning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Aromatherapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Aromatherapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_pain_relief_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Associated_anomalies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Associated_anomalies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_abnormality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Baby_milestones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Baby_milestones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#What_to_anticipate_after_baby_is_born"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Baby_naming -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Baby_naming">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Planning_for_a_newborn"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Baby_vaccines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Baby_vaccines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#What_to_anticipate_after_baby_is_born"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Biofeedback -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Biofeedback">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_pain_relief_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Birth_control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Birth_control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Other_pregnancy_concerns"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Bleeding_Contraindications_Shivering_Paralysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Bleeding_Contraindications_Shivering_Paralysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_analgesia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Bloating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Bloating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Maternal_complication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Blood_sugar_test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Blood_sugar_test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Test"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Blood_tests -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Blood_tests">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_diagnostic_and_screening_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Bottle_feeding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Bottle_feeding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Milk_Feeding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Breast_milk_substitutes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Breast_milk_substitutes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Milk_Feeding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Breastfeeding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Breastfeeding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Milk_Feeding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Budgeting_for_newborn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Budgeting_for_newborn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Planning_for_a_newborn"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#CHD_care_during_pregnancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#CHD_care_during_pregnancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_heart_defect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Caffeine_consumption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Caffeine_consumption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Nutrition_physical_exercise_or_lifestyle_in_pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Cardiac_catheterization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Cardiac_catheterization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Care_and_treatment_of_children_with_CHD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Cardiac_catheterization_for_diagnosis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Cardiac_catheterization_for_diagnosis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postnatal_diagnostic_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Cardiac_transplantation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Cardiac_transplantation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Care_and_treatment_of_children_with_CHD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Care_and_treatment_of_children_with_CHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Care_and_treatment_of_children_with_CHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_heart_defect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Causes_of_CHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Causes_of_CHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_heart_defect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Causes_of_infertility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Causes_of_infertility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Infertility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Causes_of_miscarriage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Causes_of_miscarriage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Miscarriage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Cervical_ripening -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Cervical_ripening">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Induction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Chemical_analyses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Chemical_analyses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postnatal_diagnostic_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Chorionic_villus_sampling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Chorionic_villus_sampling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_diagnostic_and_screening_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Circumcision_discuss -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Circumcision_discuss">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Planning_for_a_newborn"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Common_Themes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Common_Themes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Common_feelings_following_prenatal_diagnosis_of_CHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Common_feelings_following_prenatal_diagnosis_of_CHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_heart_defect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Common_labor_fears -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Common_labor_fears">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Preparation_for_delivery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Confirming_pregnancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Confirming_pregnancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pre-pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_abnormality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_abnormality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Fetal_complication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_heart_defect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_heart_defect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_abnormality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Constipation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Constipation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Maternal_complication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Continued_breastfeeding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Continued_breastfeeding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Milk_Feeding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Continuous_labor_support -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Continuous_labor_support">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_pain_relief_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Coping_with_minor_discomforts_during_prenatal_care -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Coping_with_minor_discomforts_during_prenatal_care">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Cord_blood_banking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Cord_blood_banking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postpartum_planning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Cord_clamping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Cord_clamping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#What_to_anticipate_after_baby_is_born"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Cost_of_Tdap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Cost_of_Tdap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Vaccination_during_pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Creating_baby_registry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Creating_baby_registry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Planning_for_a_newborn"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#DNA_testing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#DNA_testing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Test"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Daily_activities_in_pregnancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Daily_activities_in_pregnancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Nutrition_physical_exercise_or_lifestyle_in_pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Definition_of_the_epidural_procedure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Definition_of_the_epidural_procedure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_analgesia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Definition_of_the_spinal_procedure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Definition_of_the_spinal_procedure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_analgesia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Delivery_stories -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Delivery_stories">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor/Delivery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Dental_care_or_endocarditis_prophylaxis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Dental_care_or_endocarditis_prophylaxis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Long-term_outlook_of_CHD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Development_of_the_fetus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Development_of_the_fetus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Diagnosis_of_infertility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Diagnosis_of_infertility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Infertility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Diagnostic_information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Diagnostic_information">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Diatery_supplement_during_prenatal_care -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Diatery_supplement_during_prenatal_care">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Difficulty_sleeping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Difficulty_sleeping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Maternal_complication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Drinking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Drinking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy_taboo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Drug_use -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Drug_use">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy_taboo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Due_Date -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Due_Date">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor/Delivery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Early_breast_feeding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Early_breast_feeding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Breastfeeding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Echocardiography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Echocardiography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postnatal_diagnostic_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Effect_of_epidural_analgesia_on_labor_Nerve_damage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Effect_of_epidural_analgesia_on_labor_Nerve_damage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_analgesia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Effect_of_pregnancy_on_work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Effect_of_pregnancy_on_work">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Expected_body_changes_and_how_to_handle_them"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Effectiveness_of_vaccination_during_pregnancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Effectiveness_of_vaccination_during_pregnancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Vaccination_during_pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Effects_of_pregnancy_on_mothers_body -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Effects_of_pregnancy_on_mothers_body">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Expected_body_changes_and_how_to_handle_them"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Electrocardiography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Electrocardiography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postnatal_diagnostic_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Emotions_in_pregnancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Emotions_in_pregnancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Mental_health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Environmental_exposures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Environmental_exposures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Other_pregnancy_concerns"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Establishing_support_network -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Establishing_support_network">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Mental_health"/>
+        <rdfs:comment>e.g., checking in with a friend and reaching out to other moms</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Examples_of_previous_cases_that_continued_the_pregnancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Examples_of_previous_cases_that_continued_the_pregnancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_abnormality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Exercise_test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Exercise_test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postnatal_diagnostic_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Expected_body_changes_and_how_to_handle_them -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Expected_body_changes_and_how_to_handle_them">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Facts_about_pregnancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Facts_about_pregnancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_care"/>
+        <rdfs:comment>e.g., ‘only 5% of women give birth on their due date’</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Failed_induction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Failed_induction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Induction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Family_planning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Family_planning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Multi-stage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Fetal_complication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Fetal_complication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Symptoms_of_pregnancy_and_diagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Fetal_echocardiography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Fetal_echocardiography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_diagnostic_and_screening_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Fetal_intervention_due_to_CHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Fetal_intervention_due_to_CHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_heart_defect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Fetal_magnetic_resonance_imaging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Fetal_magnetic_resonance_imaging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_diagnostic_and_screening_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Fever -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Fever">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Find_pediatrician -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Find_pediatrician">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Finding_a_doctor_or_midwife -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Finding_a_doctor_or_midwife">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#First_foods_to_avoid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#First_foods_to_avoid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Solid_Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#First_foods_to_introduce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#First_foods_to_introduce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Solid_Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Fish_and_mercury_consumption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Fish_and_mercury_consumption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Nutrition_physical_exercise_or_lifestyle_in_pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Food_allergens -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Food_allergens">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Solid_Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Food_safety -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Food_safety">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Nutrition_physical_exercise_or_lifestyle_in_pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Formula_feeding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Formula_feeding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Milk_Feeding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Foster_parenting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Foster_parenting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Infertility"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pre-pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Frequency_of_miscarriage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Frequency_of_miscarriage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Miscarriage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Gender_prediction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Gender_prediction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Gestational_diabetes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Gestational_diabetes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Maternal_complication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Grown-up_with_CHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Grown-up_with_CHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Long-term_outlook_of_CHD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#HIV -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#HIV">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Transmittable_disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Health_issues_of_newborn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Health_issues_of_newborn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Healthcare_products -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Healthcare_products">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Heartburn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Heartburn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Maternal_complication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Heat_and_cold -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Heat_and_cold">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_pain_relief_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Hospital_and_doctor_choices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Hospital_and_doctor_choices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Other_pregnancy_concerns"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Hospital_choices -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Hospital_choices">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Hypnosis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Hypnosis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_pain_relief_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Immunizations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Immunizations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Increased_urinary_frequency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Increased_urinary_frequency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Maternal_complication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Indications_of_induction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Indications_of_induction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Induction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Induction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Induction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor/Delivery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Infertility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Infertility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pre-pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Information_about_disease_in_pregnancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Information_about_disease_in_pregnancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_care"/>
+        <rdfs:comment>e.g., Parvovirus B19, hyperthyroidism</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Information_about_the_delivery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Information_about_the_delivery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor/Delivery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Insurance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Insurance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Insurance_coverage_for_Tdap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Insurance_coverage_for_Tdap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Vaccination_during_pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Intensive_care_due_to_CHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Intensive_care_due_to_CHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Care_and_treatment_of_children_with_CHD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Interaction_with_other_medication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Interaction_with_other_medication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Medication_in_pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Interpreting_results_of_diagnostic_tests -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Interpreting_results_of_diagnostic_tests">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Test"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Issues_related_to_prenatal_visits -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Issues_related_to_prenatal_visits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_analgesia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_analgesia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_pain_relief_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_pain_relief_methods -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_pain_relief_methods">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor/Delivery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Long-term_outlook_of_CHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Long-term_outlook_of_CHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_heart_defect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Lower_extremity_edema -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Lower_extremity_edema">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Maternal_complication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Management_of_mental_health -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Management_of_mental_health">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Mental_health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Maternal_complication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Maternal_complication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Symptoms_of_pregnancy_and_diagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Maternal_diet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Maternal_diet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Maternal_fatigue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Maternal_fatigue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Maternal_complication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Maternal_product_safety_product_recalls -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Maternal_product_safety_product_recalls">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Healthcare_products"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Maternal_recovery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Maternal_recovery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postpartum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Medication_in_pregnancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Medication_in_pregnancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Medications_in_pregnancy_due_to_CHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Medications_in_pregnancy_due_to_CHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Care_and_treatment_of_children_with_CHD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Medications_used_in_treatment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Medications_used_in_treatment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Infertility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Mental_health -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Mental_health">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Multi-stage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Methods_of_delivery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Methods_of_delivery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor/Delivery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Milk_Feeding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Milk_Feeding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Miscarriage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Miscarriage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postpartum"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Mode_and_process_of_delivery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Mode_and_process_of_delivery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor/Delivery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Morning_sickness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Morning_sickness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Maternal_complication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Mother_Weight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Mother_Weight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Nutrition_physical_exercise_or_lifestyle_in_pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Multi-stage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Multi-stage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Common_Themes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Music_and_audioanalgesia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Music_and_audioanalgesia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_pain_relief_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Nausea_or_vomiting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Nausea_or_vomiting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Maternal_complication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Neonatal_complications -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Neonatal_complications">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_Care -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_Care">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postpartum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_bathing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_bathing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_circumcision -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_circumcision">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_coughs_and_colds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_coughs_and_colds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_developmental_milestones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_developmental_milestones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_gas_and_burping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_gas_and_burping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_growth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_growth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_jaundice_checks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_jaundice_checks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postpartum_planning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Nitrous_oxide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Nitrous_oxide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_pain_relief_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Nuchal_translucency_scan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Nuchal_translucency_scan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_diagnostic_and_screening_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Nursing_pillow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Nursing_pillow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postpartum_planning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Nutrition_for_CHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Nutrition_for_CHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Care_and_treatment_of_children_with_CHD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Nutrition_in_pregnancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Nutrition_in_pregnancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Nutrition_physical_exercise_or_lifestyle_in_pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Nutrition_physical_exercise_or_lifestyle_in_pregnancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Nutrition_physical_exercise_or_lifestyle_in_pregnancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Obtaining_a_labor_doula -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Obtaining_a_labor_doula">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Preparation_for_delivery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Opioids -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Opioids">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_pain_relief_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Oral_health -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Oral_health">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Other_pregnancy_concerns -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Other_pregnancy_concerns">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Outdoors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Outdoors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Outpatient_methods_such_as_stripping_membranes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Outpatient_methods_such_as_stripping_membranes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Induction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Oxytocin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Oxytocin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Induction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pacemaker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pacemaker">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Care_and_treatment_of_children_with_CHD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pacifier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pacifier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pack_hospital_bag -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pack_hospital_bag">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Preparation_for_delivery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Parenting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Parenting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postpartum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Peer_experience_of_delivery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Peer_experience_of_delivery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor/Delivery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Personal_care_and_hygiene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Personal_care_and_hygiene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Personal_hygiene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Personal_hygiene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Nutrition_physical_exercise_or_lifestyle_in_pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pertussis_disease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pertussis_disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Vaccination_during_pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Physical_and_psychological_complications_after_delivery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Physical_and_psychological_complications_after_delivery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postpartum_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Physical_examination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Physical_examination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postnatal_diagnostic_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Physiology_of_pregnancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Physiology_of_pregnancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Planning_for_a_newborn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Planning_for_a_newborn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Multi-stage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Planning_for_home_improvement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Planning_for_home_improvement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Planning_for_a_newborn"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postdural_puncture_headache -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postdural_puncture_headache">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Side_effect_of_labor_analgesia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postnatal_coping_with_the_diagnosis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postnatal_coping_with_the_diagnosis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_abnormality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postnatal_diagnostic_methods -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postnatal_diagnostic_methods">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_abnormality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postnatal_quality_of_life -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postnatal_quality_of_life">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_heart_defect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postpartum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postpartum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Common_Themes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postpartum_Care -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postpartum_Care">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postpartum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postpartum_planning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postpartum_planning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postpartum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postpartum_screening_tests -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postpartum_screening_tests">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#What_to_anticipate_after_baby_is_born"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Potential_complications_of_CHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Potential_complications_of_CHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_heart_defect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pre-existing_or_antepartum_postpartum_anxiety_or_depression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pre-existing_or_antepartum_postpartum_anxiety_or_depression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Mental_health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pre-pregnancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pre-pregnancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Common_Themes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Precision_of_prenatal_diagnosis_of_CHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Precision_of_prenatal_diagnosis_of_CHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_heart_defect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Preconception -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Preconception">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pre-pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Common_Themes"/>
+        <rdfs:comment>e.g. stress, age, diet</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy_taboo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy_taboo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy_with_CHD_in_mother -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy_with_CHD_in_mother">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Long-term_outlook_of_CHD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_care -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_care">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_diagnostic_and_screening_methods -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_diagnostic_and_screening_methods">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Preparation_for_delivery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Preparation_for_delivery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor/Delivery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Preparing_for_a_new_pregnancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Preparing_for_a_new_pregnancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Multi-stage"/>
+        <rdfs:comment>e.g. prevention, exercise, dealing with multiple miscarriages, and IVF</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Presentation_of_the_multidisciplinary_team_in_care_of_the_child -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Presentation_of_the_multidisciplinary_team_in_care_of_the_child">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_abnormality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prevalence_of_CHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prevalence_of_CHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_heart_defect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Private_health_care_coverage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Private_health_care_coverage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Insurance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prognosis_of_CHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prognosis_of_CHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_heart_defect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Provider_for_infertility_treatment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Provider_for_infertility_treatment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Infertility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pulse_oximeter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pulse_oximeter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postnatal_diagnostic_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Quality_of_life_for_the_child -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Quality_of_life_for_the_child">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postnatal_quality_of_life"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Quality_of_life_for_the_family -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Quality_of_life_for_the_family">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postnatal_quality_of_life"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Quality_of_oocyte_embryo_or_semen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Quality_of_oocyte_embryo_or_semen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Nutrition_physical_exercise_or_lifestyle_in_pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Radiography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Radiography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postnatal_diagnostic_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Relaxation_techniques -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Relaxation_techniques">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_pain_relief_methods"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Mental_health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Research_and_breakthroughs_on_miscarriage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Research_and_breakthroughs_on_miscarriage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Miscarriage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Rhogam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Rhogam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Risks_of_CHD_in_future_pregnancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Risks_of_CHD_in_future_pregnancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_heart_defect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Risks_of_invasive_methods -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Risks_of_invasive_methods">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_diagnostic_and_screening_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Risks_of_treatment_of_CHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Risks_of_treatment_of_CHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_heart_defect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Scheduled_C-section -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Scheduled_C-section">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Methods_of_delivery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Seeking_support_with_friends_family_and_your_doctor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Seeking_support_with_friends_family_and_your_doctor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Mental_health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Self-care_after_birth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Self-care_after_birth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postpartum_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Sexual_activity_in_pregnancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Sexual_activity_in_pregnancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Nutrition_physical_exercise_or_lifestyle_in_pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Side_effect_of_labor_analgesia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Side_effect_of_labor_analgesia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_analgesia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Side_effects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Side_effects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Medication_in_pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Side_effects_of_induction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Side_effects_of_induction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Induction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Side_effects_of_infertility_treatment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Side_effects_of_infertility_treatment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Infertility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Side_effects_of_vaccine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Side_effects_of_vaccine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Sleep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Sleep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Smoking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Smoking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy_taboo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Solid_Food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Solid_Food">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Spacing_of_new_foods -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Spacing_of_new_foods">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Solid_Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Special_tests_during_pregnancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Special_tests_during_pregnancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Test"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Specific_CHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Specific_CHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_heart_defect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Spinal_anesthesia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Spinal_anesthesia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_pain_relief_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Sterile_water_injection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Sterile_water_injection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_pain_relief_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Stooling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Stooling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Stress_management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Stress_management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Mental_health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Success_rates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Success_rates">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Fertility_preservation/infertility_treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Suggestion_to_await_for_labor_at_or_over_39_weeks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Suggestion_to_await_for_labor_at_or_over_39_weeks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Surgery_for_CHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Surgery_for_CHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Care_and_treatment_of_children_with_CHD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Surrogacy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Surrogacy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Infertility"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pre-pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Swaddling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Swaddling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Postpartum_planning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Symptoms_of_CHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Symptoms_of_CHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_heart_defect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Symptoms_of_miscarriage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Symptoms_of_miscarriage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Miscarriage"/>
+        <rdfs:comment>e.g. spotting or bleeding</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Symptoms_of_pregnancy_and_diagnosis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Symptoms_of_pregnancy_and_diagnosis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Teething -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Teething">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Newborn_Care"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Termination_of_pregnancy_due_to_CHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Termination_of_pregnancy_due_to_CHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Congenital_heart_defect"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Multi-stage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#The_benefits_of_neuraxial_analgesia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#The_benefits_of_neuraxial_analgesia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_analgesia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Touch_and_massage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Touch_and_massage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_pain_relief_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Transcutaneous_electrical_stimulation_unit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Transcutaneous_electrical_stimulation_unit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_pain_relief_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Transmittable_disease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Transmittable_disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Treatment_information_or_options -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Treatment_information_or_options">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Infertility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Ultrasounds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Ultrasounds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Test"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Umbilical_cord_sampling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Umbilical_cord_sampling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_diagnostic_and_screening_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Use_or_application_of_medication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Use_or_application_of_medication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Medication_in_pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Using_donor_sperm_or_eggs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Using_donor_sperm_or_eggs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Infertility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Vaccination_during_pregnancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Vaccination_during_pregnancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Vaccine_safety -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Vaccine_safety">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Baby_vaccines"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Vaccination_during_pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Water_immersion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Water_immersion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor_pain_relief_methods"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#What_to_anticipate_after_baby_is_born -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#What_to_anticipate_after_baby_is_born">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Planning_for_a_newborn"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#What_to_expect_at_prenatal_visits -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#What_to_expect_at_prenatal_visits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Prenatal_care"/>
+        <rdfs:comment>Examples: doptones, prenatal labs, glucose testing, kick counts, expected fetal movements, antenatal testing</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#When_to_get_Tdap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#When_to_get_Tdap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Vaccination_during_pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Where_to_get_Tdap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Where_to_get_Tdap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Vaccination_during_pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Who_else_should_get_Tdap -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Who_else_should_get_Tdap">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Vaccination_during_pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Fertility_preservation/infertility_treatment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Fertility_preservation/infertility_treatment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Infertility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Genetic_screening_amnio_or_Amniocentesis_or_Chorionic_Villus_Sampling_(CVS) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Genetic_screening_amnio_or_Amniocentesis_or_Chorionic_Villus_Sampling_(CVS)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Test"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor/Delivery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Labor/Delivery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Pregnancy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Monitoring/Follow-up_care -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Monitoring/Follow-up_care">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Long-term_outlook_of_CHD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Solid_foods_–_Timing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Solid_foods_–_Timing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Solid_Food"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Foster_parenting -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Foster_parenting">
+        <rdf:type rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Foster_parenting"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Miscarriage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Miscarriage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Miscarriage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Relaxation_techniques -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Relaxation_techniques">
+        <rdf:type rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Relaxation_techniques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Surrogacy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Surrogacy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Surrogacy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Vaccine_safety -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Vaccine_safety">
+        <rdf:type rdf:resource="http://www.semanticweb.org/luyu/ontologies/2021/3/pregnacy_information_needs_ontology#Vaccine_safety"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
